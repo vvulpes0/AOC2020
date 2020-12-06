@@ -1,5 +1,4 @@
 > import Data.Bifunctor
-> import Data.List (sort)
 
 > data Range a = Range {getMin :: a, getMax :: a}
 >                deriving (Eq, Ord, Read, Show)
